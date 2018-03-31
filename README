@@ -1,0 +1,29 @@
+Systematic Misperceptions of 3D Motion Explained by Bayesian Inference.
+B. Rokers, J.M. Fulvio, J. Pillow and E.A Cooper
+Journal of Vision, 2018
+Vol.18, 23. doi:10.1167/18.3.23
+
+
+(1) Data
+
+Files for each study in folder contain trial data in columns:
+
+1.  subject number
+2.  viewing distance in cm
+3.  target contrast (Michelson)
+4.  stimulus eccentricity in degrees (left is negative)
+5.  stimulus direction (deg) - 0 == rightward, CCW to 360
+6.  response direction (deg) - 0 == rightward, CCW to 360
+7.  stimulus speed in x (cm/s leftward is negative)
+8.  stimulus speed in z (cm/s towards is negative)
+
+(2) Scripts
+
+do_motion_uncertainty: calculation of uncertainty in motion estimation for different locations in visual space
+
+do_model_fit: example model fitting to one participant’s data
+
+do_analyze_exp[1/2/3]: load and plot lateral bias and direction confusions from each experiment
+
+Requires Philipp Berens’ CircStat toolbox in path:
+https://www.mathworks.com/matlabcentral/fileexchange/10676-circular-statistics-toolbox--directional-statistics-
