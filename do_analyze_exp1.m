@@ -4,6 +4,12 @@ clear all;
 close all;
 addpath(genpath('./helper_functions'));
 
+% Check that the Circstat Toolbox is installed
+hasCircstat = exist('circ_dist.m','file');
+if ~hasCircstat
+    error('Please install the Circstat Toolbox: https://github.com/circstat/circstat-matlab')
+end 
+
 % load data
 % 1.  subject number
 % 2.  viewing distance in cm

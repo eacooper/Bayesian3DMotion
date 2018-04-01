@@ -26,4 +26,4 @@ do_model_fit: example model fitting to one participant’s data
 do_analyze_exp[1/2/3]: load and plot lateral bias and direction confusions from each experiment
 
 Requires Philipp Berens’ CircStat toolbox in path:
-https://www.mathworks.com/matlabcentral/fileexchange/10676-circular-statistics-toolbox--directional-statistics-
+https://github.com/circstat/circstat-matlab
