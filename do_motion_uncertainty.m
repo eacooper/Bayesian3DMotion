@@ -4,6 +4,7 @@
 clear all;
 close all;
 addpath(genpath('./equations'));
+addpath(genpath('./helper_functions'));
 
 %% SET UP
 
